@@ -4,7 +4,9 @@ We chose ZEP Track and the main target that we are focusing on is the populariza
 
 We called our app Metapromote™ which is a “normal app” that allows building spaces for business promotion. 
 
-Users can ask each other about food/clothes/etc. and make recommendations to know more about new options, also they can complete quests to advance in season pass that rewards them with free coupons from cafeterias. In the quest, users have to make an Instagram post with a unique hashtag, a brand hashtag, and their specific image must include the logo of a specific cafeteria and product. 
+Brands and stores can apply to join the ZEP map and will be provided with their space in the "pavilion", where they can sell their products and also use this opportunity to promote their name through posting quests for the customers and reward the most active and loyal ones. 
+
+Users can enjoy their time by visiting various entertainment places, interact with other people and share each other their recommendations to know more about new options. They can complete quests to advance in season pass that rewards them with free coupons and other benefits offered by cafeterias. In the quests, users are offered tasks to complete such as making an Instagram post with a specific condition, unique hashtag, a brand hashtag, and their specific image must include the logo of a specific cafeteria and product which can be chosen by the businesses. 
 
 ![Alt text](/data/LRT.jpg "LRT TEAM")
 
