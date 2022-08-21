@@ -2,7 +2,7 @@
 
 We chose ZEP Track and the main target that we are focusing on is the popularization of ZEP among people and the promotion of cafes/entertaining places/shops and so on by using metaverse. We called our app Metapromote™ which is a “normal app” that allows building spaces for business promotion. Users can ask each other about food/clothes/etc. and make recommendations to know more about new options, also they can complete quests to advance in season pass that rewards them with free coupons from cafeterias. In the quest, users have to make an Instagram post with a unique hashtag, a brand hashtag, and their specific image must include the logo of a specific cafeteria and product. 
 
-![alt text](https://drive.google.com/file/d/10SJyx3nNwwA8MrDTsohtyr9dA4L79DKU/view?usp=sharing)
+![alt text]((https://github.com/Yeskendir2502/LRT/blob/main/LRT.png))
 
 
 
