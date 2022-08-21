@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+			}
+			::-webkit-scrollbar {
+				display: none;
+			}
+
+			body {
+				-ms-overflow-style: none;
+			}
+
+			.container {
+				height: 100vh;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.content {
+				display: flex;
+                flex-direction: column;
+				min-height: 200px;
+				justify-content: center;
+				align-items: center;
+				background-color: beige;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				border-radius: 7px;
+			}
+
+			hr {
+				border-width: 0.5px;
+			}
+
+			i {
+				cursor: pointer;
+			}
+
+			.box {
+				padding: 10px;
+				display: flex;
+				flex-direction: column;
+				width: 300px;
+				height: 300px;
+				border-radius: 7px;
+				border-color: bisque;
+				background-color: white;
+				border-width: 2px;
+				box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+			}
+
+			.header {
+				display: flex;
+				justify-content: space-between;
+			}
+
+			.footer {
+				justify-self: flex-end;
+				align-self: center;
+			}
+
+            .button1 {
+                background-color: tomato;
+            }
+
+			img {
+				width: 20%;
+			}
+		</style>
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="box">
+				<div class="header">
+					<div class="logo">
+						<p>Daily Quests</p>
+					</div>
+					<div class="button_close">
+						<i onclick="closeWidget()" class="fa-solid fa-xmark"></i>
+					</div>
+				</div>
+				<hr />
+				<div class="content">
+                    <p id="innText">---</p>
+                    <p id="instaKey">***</p>
+                </div>
+				<div class="footer">
+					<button onclick="requestServer()" class="button1">Check results</button>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+            window.addEventListener("message", function(e){
+                document.getElementById("innText").innerText = e.data.text;
+                document.getElementById("instaKey").innerText = "Your unique key: " + e.data.key;
+            })
+			// 버튼을 누르면 호출되는 함수
+			function closeWidget() {
+				// App으로 메시지를 보냄.
+                console.log("CLICKED")
+                // window.parent.close()
+				window.parent.postMessage(
+					{
+						type: "close",
+					},
+					"*"
+				);
+			}
+            function requestServer() {
+                window.parent.postMessage(
+                    {
+                        type: "request",
+                    },
+                    "*"
+                );
+            }
+		</script>
+	</body>
+</html>
