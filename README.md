@@ -2,9 +2,6 @@
 
 We chose ZEP Track and the main target that we are focusing on is the popularization of ZEP among people and the promotion of cafes/entertaining places/shops and so on by using metaverse. We called our app Metapromote™ which is a “normal app” that allows building spaces for business promotion. Users can ask each other about food/clothes/etc. and make recommendations to know more about new options, also they can complete quests to advance in season pass that rewards them with free coupons from cafeterias. In the quest, users have to make an Instagram post with a unique hashtag, a brand hashtag, and their specific image must include the logo of a specific cafeteria and product. 
 
-![alt text]((https://github.com/Yeskendir2502/LRT/blob/main/LRT.jpg?raw=true))
-
-
 
 To achieve our goal and complete tasks we used the following techniques:
 
@@ -21,8 +18,14 @@ To achieve our goal and complete tasks we used the following techniques:
 
 Now we are working on coding stuff and combining all scripts that we are making.
 
-## Getting Started
+## How to run ZEP app
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+App type: Normal App
 
+Map URL: https://zep.us/play/2NdpQ3
+
+
+To load our Normal App in ZEP proceed with these steps:
+
+* You have to zip this folder https://github.com/Yeskendir2502/LRT/tree/main/zep
+* Upload zip file that contains board.png, main.js, widget.html to ZEP through My Apps(Beta)
